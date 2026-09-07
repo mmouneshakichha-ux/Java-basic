@@ -1,4 +1,4 @@
-public class CountOfDigits 
+public class CountOfDigits
 {
     public static void main(String[] args)
     {
@@ -6,7 +6,7 @@ public class CountOfDigits
         int count = 0;
         while(num > 0)
 {
-    int digit = num % 10;
+    num = num % 10;
     num = num /10;
     count++;
 
@@ -14,7 +14,7 @@ public class CountOfDigits
 
     }
     System.out.println("Count of digits = " + count);
-    } 
+    }
 
     
 }

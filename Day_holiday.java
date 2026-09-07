@@ -8,7 +8,7 @@ public class Day_holiday
         System.out.println("Enter your day");
         int day = sc.nextInt();
 
-        System.out.println();
-
+        System.out.println(day);
+    sc.close();
     }
 }

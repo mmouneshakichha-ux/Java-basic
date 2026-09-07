@@ -22,7 +22,7 @@ public class College_admission
         {
             System.out.println("Not eligible");
         }
-
+sc.close();
 
     }
 }

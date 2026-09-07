@@ -4,6 +4,6 @@ public class Algo
     {
         
         int b = 100;
-        System.out.println(0);
+        System.out.println(b);
     }
 }
