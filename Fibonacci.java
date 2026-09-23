@@ -7,7 +7,7 @@ public class Fibonacci
         System.out.println("Enter a number");
         int n = sc.nextInt();
 
-        int a = 0; 
+        int a = 0;
         int b = 1;
 
         System.out.println(a + " " + b + " ,");
@@ -18,7 +18,6 @@ public class Fibonacci
             a = b;
             b = c;
         }
-
 
         }
 
