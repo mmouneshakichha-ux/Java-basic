@@ -1,6 +1,6 @@
-public class Iffiles 
+public class Iffiles
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         System.out.println("Scenario 1: Both string Literals");
         String s1 = "Java";
@@ -22,9 +22,5 @@ public class Iffiles
 
         System.out.println(s5 == s6);
         System.out.println(s5.equals(s6));
-
-
-        
-
-        }
+    }
 }
